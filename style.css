@@ -1,0 +1,47 @@
+<?
+echo <<< HTML
+
+<style>
+body,td,th
+{
+ font-family: $font;
+ font-size: $font_sizepx;
+ color: #$font_color;
+}
+body
+{
+ background-color: #$bg;
+}
+a:link
+{
+ color: #$link;
+ font-weight: bold;
+}
+a:visited
+{
+ color: #$visited;
+ font-weight: bold;
+}
+a:hover
+{
+ color: #$hover;
+ font-weight: bold;
+}
+.style1 
+{
+ font-size: $style1px;
+ font-weight: bold;
+}
+.style2
+{
+ font-size: $style2px;
+ font-weight: bold;
+}
+img
+{
+	border: 0px none;
+}
+</style>
+
+HTML;
+?>
